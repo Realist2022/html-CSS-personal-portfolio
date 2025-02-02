@@ -1,0 +1,166 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center; 
+    height: 700px;
+}
+
+.Tittle{
+  flex:auto;
+  text-align: center;
+}
+
+
+.item1{
+  flex-shrink: 2;
+}
+
+.item2{
+  flex-shrink: 2;
+}
+
+h1{
+  font-family:sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+h2{
+  font-family:sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+p{
+  font-family: "Libre Baskerville", serif;
+  font-weight: rem;
+  font-style: normal;
+}
+
+h3{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.middle-container{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #f21a02, #52fe33, #0347f4);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.me{
+  padding: 100px;
+  text-align: center;
+  
+}
+
+@media(max-width: 800px){
+  .meme{
+    height: 150px;
+  }
+}
+
+.meme{
+  border-radius: 10%;
+  margin-bottom: 30px;
+}
+
+.contact{
+  padding: 50px;
+  height: 100vh;
+}
+
+.custom-shape-divider-top-1738315055 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.spacer{
+  aspect-ratio: 16/1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./Assets/Images/wave-haikei.svg);
+}
+
+.spacer2{
+  aspect-ratio: 16/1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./Assets/Images/wave-haikei2.svg);
+}
+
+@media(max-width: 990px){
+  .container{
+    flex-direction: column;
+  }
+}
+
+.Maorifern{
+  padding: 30px;
+}
+
+.myskills{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 50%;
+  margin: 50px auto 0 auto;
+  text-align: left;
+  column-gap: 10px;
+  row-gap: 2rem;
+}
+
+.quote{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.personal-fun{
+  color: #0347f4;
+}
+
+.modz{
+  color: #f21a02;
+}
+
+.laser{
+  color: #52fe33;
+}
